@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { AuthGuardService } from './auth-guard.service';
 import { LoginComponent } from './login/login.component';
 import { MainPageComponent } from './main-page/main-page.component';
+import { CustomDirectiveDirective } from './custom-directive.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    MainPageComponent
+    MainPageComponent,
+    CustomDirectiveDirective
   ],
   imports: [
     BrowserModule,
